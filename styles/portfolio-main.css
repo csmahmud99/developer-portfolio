@@ -21,7 +21,9 @@
 /* Header & navigation styles */
 nav {
     display: flex;
-    justify-content: space-between;         /* New Rule*/
+    /* New Rule*/
+    justify-content: space-between;
+    /* New Rule*/
     margin: 50px 200px;
 }
 
@@ -32,10 +34,38 @@ nav {
 
 nav ul {
     display: flex;
-    align-items: center;                    /* New Rule*/
+    align-items: center;
+    /* New Rule*/
 }
 
 nav li {
     list-style: none;
     margin-left: 50px;
+}
+
+/* Banner Styles */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.banner-subtitle {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
