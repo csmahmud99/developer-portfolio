@@ -35,7 +35,7 @@ nav {
     display: flex;
     /* New Rule (from CSS Flexbox) */
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
