@@ -7,7 +7,13 @@
     color: #FD6E0A;
 }
 
+.banner-button{
+    display: flex;
+    gap: 30px;
+}
+
 .btn-primary {
+    text-align: center;
     height: 64px;
     background-color: #FD6E0A;
     border: 0;
@@ -15,7 +21,17 @@
     border-radius: 5px;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.btn-outline {
+    height: 64px;
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 section {
@@ -28,6 +44,8 @@ section {
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, bottom left;
+    background-position-x: right, 23px;
+    background-position-y: bottom, 38px;
 }
 
 nav {
