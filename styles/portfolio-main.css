@@ -129,6 +129,7 @@ main {
 
 .skills-container {
     display: flex;
+    /* New Rule (from CSS Flexbox) */
     gap: 24px;
 }
 
@@ -200,4 +201,34 @@ main {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+
+/* Contact Section Styles */
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+
+/* New Rule, New Learning */
+.contact .section-title {
+    text-align: left;
+}
+
+/* New Rule, New Learning */
+.contact input[type=text], input[type=email], textarea {
+    margin-bottom: 24px;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact-social .section-description {
+    text-align: left;
+} 
+
+.contact a{
+    text-decoration: none;
 }
