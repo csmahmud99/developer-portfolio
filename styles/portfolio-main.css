@@ -209,6 +209,7 @@ main {
     gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 200px;
+    align-items: center;
 }
 
 /* New Rule, New Learning */
